@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE MAGIC POTATO</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: #fff8e7; display: flex; flex-direction: column; align-items: center; justify-content: center; overflow: hidden; font-family: Arial, sans-serif; text-align: center; }
+  h1 { font-size: clamp(28px, 5vw, 55px); color: #704214; margin: 0 20px 60px; }
+  .potato { font-size: 150px; display: inline-block; user-select: none; animation: dance 0.6s infinite alternate ease-in-out; }
+  h2 { font-size: clamp(28px, 5vw, 50px); color: #b45309; margin: 60px 20px 0; font-weight: 900; }
+  @keyframes dance {
+    0% { transform: translate(-35px, 0) rotate(-25deg); }
+    25% { transform: translate(15px, -60px) rotate(20deg) scale(1.2); }
+    50% { transform: translate(40px, 0) rotate(35deg); }
+    75% { transform: translate(-15px, -45px) rotate(-15deg) scale(1.1); }
+    100% { transform: translate(-40px, 0) rotate(-35deg); }
+  }
+</style>
+</head>
+<body>
+<h1>all hail the magic potato</h1>
+<div class="potato">🥔</div>
+<h2>YOU GOT POTATOED!</h2>
+</body>
+</html>
